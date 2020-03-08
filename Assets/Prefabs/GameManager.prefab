@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7768576585635757836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3121204061125754740}
+  - component: {fileID: 1227704653879928786}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3121204061125754740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7768576585635757836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2134058, y: 0.10932875, z: -0.0703125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1227704653879928786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7768576585635757836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87413179ea821944b2beed2ab7aacd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyList: []
+  totalWaves: 0
+  totalMoneyLbl: {fileID: 0}
+  currentWaveLbl: {fileID: 0}
+  playBtnLbl: {fileID: 0}
+  totalEscapedLbl: {fileID: 0}
+  spawnPoint: {fileID: 8210532319469794842, guid: a0dd7fa9fac756f41969b16cc4509bee,
+    type: 3}
+  enemies:
+  - {fileID: 4158319861269801340, guid: f2e3d94a52f5e1147b3190c8bf61a64b, type: 3}
+  - {fileID: 5450294038155567260, guid: c7a0f4a168c077346ab5b2584fa217af, type: 3}
+  - {fileID: 7324404571300011869, guid: 2fe8e1f974135434abb53b0e4656e72a, type: 3}
+  maxEnemiesOnScreen: 3
+  totalEnemies: 3
+  enemiesPerSpawn: 1
